@@ -119,8 +119,8 @@
 		},200);
 	};
 	
-	$.fn.lottery.stop = function(opts){
-		window.clearInterval(opts.timer);
+	$.fn.lottery.stop = function(){
+		window.clearInterval($.fn.lottery.defaults.timer);
 	};
 	
 	/**
