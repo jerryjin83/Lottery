@@ -10,6 +10,70 @@
   <packaging>war</packaging>
   <name>lottery Webapp</name>
   <dependencies>
+  
+	<dependency>
+    	<groupId>com.jerry.lottery</groupId>
+ 		<artifactId>lottery-domain</artifactId>
+ 		<version>${project.version}</version>
+        <type>jar</type>
+   	</dependency>
+  
+  	 <dependency>
+      	<groupId>org.springframework</groupId>
+      	<artifactId>spring-aop</artifactId>
+      </dependency>
+      <dependency>
+      	<groupId>org.springframework</groupId>
+      	<artifactId>spring-beans</artifactId>
+      </dependency>
+      <dependency>
+      	<groupId>org.springframework</groupId>
+      	<artifactId>spring-context-support</artifactId>
+      </dependency>
+      <dependency>
+      	<groupId>org.springframework</groupId>
+      	<artifactId>spring-core</artifactId>
+      </dependency>
+      <dependency>
+      	<groupId>org.springframework</groupId>
+      	<artifactId>spring-expression</artifactId>
+      </dependency>
+      <dependency>
+      	<groupId>org.springframework</groupId>
+      	<artifactId>spring-jdbc</artifactId>
+      </dependency>
+      <dependency>
+      	<groupId>org.springframework</groupId>
+      	<artifactId>spring-orm</artifactId>
+      </dependency>
+      <dependency>
+      	<groupId>org.springframework.security</groupId>
+      	<artifactId>spring-security-core</artifactId>
+      </dependency>
+      <dependency>
+      	<groupId>org.springframework</groupId>
+      	<artifactId>spring-test</artifactId>
+      </dependency>
+      <dependency>
+      	<groupId>org.springframework</groupId>
+      	<artifactId>spring-tx</artifactId>
+      </dependency>
+      <dependency>
+      	<groupId>org.springframework</groupId>
+      	<artifactId>spring-web</artifactId>
+      </dependency>
+      <dependency>
+      	<groupId>org.springframework</groupId>
+      	<artifactId>spring-context</artifactId>
+      </dependency>
+      <dependency>
+      	<groupId>org.springframework</groupId>
+      	<artifactId>spring-webmvc</artifactId>
+      </dependency>
+      <dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-jms</artifactId>
+	  </dependency>
   </dependencies>
   <build>
     <finalName>lottery</finalName>
